@@ -1,4 +1,4 @@
-# cs262
+# OPUS
 ## Vision Statement
 
 For Earth Mission Asia (EMA), a medical organization that works in the jungles of Myanmar, 
