@@ -24,12 +24,12 @@ export default function App() {
         options={({ navigation }) => ({
         headerRight: () => (
         <Header navigation={navigation}/> )})}
-            />/>
+            />
         <Stack.Screen name="About" component={AboutScreen} 
         options={({ navigation }) => ({
             headerRight: () => (
             <Header navigation={navigation}/> )})}
-            />/>
+            />
       </Stack.Navigator>
     </NavigationContainer>
   );
