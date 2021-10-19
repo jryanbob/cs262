@@ -10,4 +10,6 @@ export const globalStyles = StyleSheet.create({
         fontWeight: 'bold',
         color: '#333',
     },
+    detailsPageText: {
+    },
 });

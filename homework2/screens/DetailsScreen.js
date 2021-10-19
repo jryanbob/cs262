@@ -9,9 +9,9 @@ export default function DetailsScreen({ route, navigation }) {
     return (
         <View style={{ flex: 1, padding: 20}}>
             {/* Display the fields of the received movie object. */}
-            <View style={globalStyles.container}>{ route.params.title }</View>
-            <View style={globalStyles.container}> { route.params.rating }</View>
-            <View style={globalStyles.container}>{ route.params.description }</View>
+            <Text style={globalStyles.title}>{ route.params.email }</Text>
+            <Text style={globalStyles.detailsPageText}> id: { route.params.id }</Text>
+            <Text style={globalStyles.detailsPageText}> AKA: { route.params.name }</Text>
         </View>
     );
 }

@@ -7,8 +7,8 @@ import { globalStyles } from '../styles/global';
 export default function AboutScreen({ route, navigation }) {
 
     return (
-        <View style={{ flex: 1, padding: 20}}>
+        <Text style={{ flex: 1, padding: 20}}>
             The application access information on monopoly players.
-        </View>
+        </Text>
     );
 }

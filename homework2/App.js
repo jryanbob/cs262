@@ -7,7 +7,6 @@ import HomeScreen from "./screens/HomeScreen";
 import DetailsScreen from "./screens/DetailsScreen";
 import AboutScreen from "./screens/AboutScreen";
 import Header from "./shared/header"
-import Monopoly from "./screens/monopoly"
 
 const Stack = createNativeStackNavigator();
 
@@ -15,7 +14,7 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Home" component={Monopoly} 
+        <Stack.Screen name="Players" component={HomeScreen} 
         options={({ navigation }) => ({
         headerRight: () => (
         <Header navigation={navigation}/> )})}
