@@ -1,0 +1,24 @@
+Modules checked:
+
+App.js
+
+Mostly no changes: very little code and format seemed fine to begin with
+All Stylesheets
+
+Changes: Fixed all the indentation
+PatientEntry.js
+
+Changes: Fixed format including indentations and added documentation to the function
+About.js + Instructions.js
+
+Changes: Fixed indentations
+DrawerScreen.js
+
+Changes: Got rid of the 'This screen' phrase as indicated by JSDoc
+PatientProfile.js
+
+Changes: Got rid of useless Views, fixed indentation, and added clarifying documentation to sections of main code
+Home.js
+
+Changes: added lots of documentation to main code, fixed indentation, and got rid of useless views
+Did not change much of existing documentation as the style matched up with JSDocs already
